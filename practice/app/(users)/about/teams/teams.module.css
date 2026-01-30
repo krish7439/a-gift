@@ -1,0 +1,21 @@
+.common_heading {
+  color: blue;
+  font-family: var(--font-roboto);
+}
+
+/* for image 
+src="/imag.jpg"
+alt="alternatie img"
+fill=[true} this is for the full image inside a card
+quality= [100}  this is for image quality
+priority ={false} for lazy loading and {true} for direct loading basically for home page
+placeholder= blur for when images take time to load it will show blur until it is loaded
+blurDataURL="" this is for custom blur image and we have to import the image if we have to blur that img
+ */
+
+/* for FONTS IN NEXT JS 
+ 
+    import {Roboto} from "next/font/google";
+    Roboto({
+    subsets= ["latin"]
+    });*/
